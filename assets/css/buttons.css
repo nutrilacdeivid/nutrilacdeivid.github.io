@@ -1,0 +1,25 @@
+button {
+    width: calc(var(--width-buttons-mobile)/2 - var(--gap-buttons));
+
+    &:hover {
+        transform: translateY(1px);
+        cursor: pointer;
+    }
+    &:active {
+        transform: scale(1.1);
+    }
+    
+}
+
+#visit {
+    width: var(--width-buttons-mobile);
+}
+
+.homebtn {
+    background-color: var(--primary-color);
+    width: var(--width-buttons-mobile);
+    height: calc(var(--width-buttons-mobile)*0.2);
+    color: var(--text-color);
+    border: none;
+    font-weight: bold;
+}
